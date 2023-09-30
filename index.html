@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class='container' id='container'>
+      <div class='form-container sign-up-container'>
+        <form action='#'>
+          <h1 >Create your account</h1>
+          <span >Insert you email for registration</span>
+          <input type='text' placeholder='Name'></input>
+          <input type='email' placeholder='Email'></input>
+          <input type='password' placeholder='Password'></input>
+          <br />
+        </form>
+      </div>
+      <div class='form-container sign-in-container'>
+        <form action='#'>
+          <h1>Log in</h1>
+          <span>Login to your account</span>
+          <input type='email' placeholder='Email'></input>
+          <input type='password' placeholder='Password'></input>
+          <a href='#'>Forgot your password?</a>
+          <button >Sign In</button>
+        </form>
+      </div>
+      <div class='overlay-container'>
+        <div class='overlay'>
+          <div class='overlay-panel overlay-left'>
+            <h1>Have already Account?</h1>
+            <p>
+              To keep connect with us please login with your account here!
+            </p>
+            <button class='ghost' id='signIn'>
+              Sign in
+            </button>
+          </div>
+          <div class='overlay-panel overlay-right'>
+            <h1>Create your account</h1>
+            <p>
+              Enter your personal detail and start journey with us
+            </p>
+            <button class='ghost' id='signUp'>
+              Sign up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src='./scripts.js'></script>
+  </main>
+</html>
